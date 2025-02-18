@@ -13,6 +13,9 @@
         "type": "git",
         "url": "git+https://github.com/harshalplus1/book-store-project.git"
     },
+    "devDependencies": {
+          "@types/node": "^22.13.4"
+    },
     "author": "Akhil",
     "license": "ISC",
     "bugs": {
