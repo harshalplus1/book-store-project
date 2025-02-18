@@ -9,6 +9,9 @@
         "dev": "nodemon index.js",
         "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
     },
+    "devDependencies": {
+          "@types/node": "^22.13.4"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/harshalplus1/book-store-project.git"
