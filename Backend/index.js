@@ -33,9 +33,9 @@ app.use("/user", userRoute);
 
 if(process.env.NODE_ENV === "production"){
     const dirpath = path.resolve();
-    app.use(express.static("FrontEnd/dist"));
+    app.use(express.static("Frontend/dist"));
     app.get("*",(req,res) =>{
-        res.sendFile(path.resolve(dirpath,"FrontEnd","dist","index.html"));
+        res.sendFile(path.resolve(dirpath,"Frontend","dist","index.html"));
     } )
 }
 app.listen(PORT, () => {
